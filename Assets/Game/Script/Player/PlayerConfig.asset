@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca46a0e7ef825e843879f78abc1add8d, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  walkSpeed: 6
+  runSpeed: 10
+  iceFriction: 0.1
+  slopeSlideSpeed: 5
+  jumpForce: 25
+  jumpBufferFrames: 10
+  coyoteTime: 0.2
+  maxAirJumps: 1
+  dashDistance: 12
+  dashTime: 0.3
+  dashCooldown: 0.3
+  attackInterval: 0.5
+  sideAttackRange: 2
+  upAttackRange: 1
+  downAttackRange: 1
+  damage: 10
+  comboResetTime: 0.8
+  recoilXSpeed: 5
+  recoilYSpeed: 5
+  maxHealth: 100
+  timeToHeal: 2
+  healAmount: 20
+  parryWindow: 0.2
+  parryCooldown: 1
+  parryStunDuration: 1
+  parryBonusDuration: 2
+  parryRange: 1.5
+  parryDuration: 0.3
+  shieldDuration: 5
+  shieldCooldown: 10
+  wallSlidingSpeed: 2
+  wallJumpingDuration: 0.4
+  wallJumpingPower: {x: 8, y: 16}
+  attackableLayer:
+    serializedVersion: 2
+    m_Bits: 2112
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  iceLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  slopeLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2112

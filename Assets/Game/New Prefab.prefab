@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9045402308914585922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1484310965739474117}
+  - component: {fileID: 756259805157064402}
+  m_Layer: 0
+  m_Name: New Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1484310965739474117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9045402308914585922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &756259805157064402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9045402308914585922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6a4f8d12595c648900a3d91954b3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 6
+  jumpForce: 25
+  jumpBufferFrames: 10
+  coyoteTime: 0.2
+  maxAirJumps: 1
+  AirJumpCounter: 0
+  footCheckPoint: {fileID: 0}
+  footCheckY: 0.2
+  footCheckX: 0.5
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  whatIsWater:
+    serializedVersion: 2
+    m_Bits: 0
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 0
+  dashSpeed: 20
+  dashTime: 0.2
+  dashCooldown: 1
+  canDash: 1
+  dashed: 0
+  damageCooldown: 0.5
+  atkInterval: 0.5
+  attackForwardPoint: {fileID: 0}
+  upAttackPoint: {fileID: 0}
+  downAttackPoint: {fileID: 0}
+  sideAttackRange: 0.5
+  upAttackRange: 0.5
+  downAttackRange: 0.5
+  attackableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  damage: 10
+  comboResetTime: 0.8
+  recoilXSpeed: 5
+  recoilYSpeed: 5
+  recoilXSteps: 5
+  recoilYSteps: 5
+  maxHealth: 5
+  maxTotalHealth: 10
+  blood: {fileID: 0}
+  hurtEffect: {fileID: 0}
+  timeToHeal: 2
+  healedEffect: {fileID: 0}
+  healingEffect: {fileID: 0}
+  manaStorage: {fileID: 0}
+  mana: 1
+  manaDrainSpeed: 0.1
+  manaGain: 0.1
+  manaSpellCost: 0.3
+  timeBetweenCast: 0.5
+  spellDamage: 15
+  downSpellForce: 20
+  sideSpell: {fileID: 0}
+  upSpell: {fileID: 0}
+  diveExplosion: {fileID: 0}
+  diveFireVfx: {fileID: 0}
+  chargeOrbPoint: {fileID: 0}
+  chargeOrbEndPoint: {fileID: 0}
+  playerFallSpeedThreshold: -10
+  wallSlidingSpeed: 2
+  wallCheckPoint: {fileID: 0}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  wallJumpingDuration: 0.4
+  wallJumpingPower: {x: 8, y: 16}
+  downSpellShakeProfile: {fileID: 0}
+  lastAttackShakeProfile: {fileID: 0}
+  unlockedWallJump: 0
+  unlockedDash: 0
+  unlockedVarJump: 0
+  unlockedHeal: 0
+  unlockedCastSpell: 0
+  endingEffect: {fileID: 0}
+  rb: {fileID: 0}
+  anim: {fileID: 0}
+  canMove: 1
+  inputEnable: 1
+  isFacingRight: 1
+  maxFallSpeed: -50
+  pState: {fileID: 0}
+  heartShards: 0
+  halfMana: 0
