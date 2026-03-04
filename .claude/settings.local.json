@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(echo \"Renamed fading -> Fading\")",
-      "Bash(echo \"Renamed TheEndMapTranstition -> TheEndMapTransition\")"
-    ]
-  }
-}
